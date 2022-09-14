@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<!-- beginning of this html file -->
+	<head>
+	<!-- start of head -->
+	
+		<title>Faculties | MMU</title>
+		<!-- title of webpage at left-upper corner -->
+		
+		<!-- all CSS elements are coded inside here -->
+		<style>
+		
+			body {
+				background: url("https://media-exp1.licdn.com/dms/image/C561BAQF35K8FsJBDVQ/company-background_10000/0/1551164347789?e=2159024400&v=beta&t=KcksHllzlFMaxdbzeFRFteNR0xOkojOwbiyY8GdAAvE"); 		
+				/* this is background image */
+				margin-left: 15px;		/* all items in this page have a left margin of 10px */
+				margin-right: 15px;		/* all items in this page have a right margin of 10px */
+			}
+			
+			.logo {
+				width: 200px; 			/* the width of this image is 200px */
+			}
+			
+			.ow {
+				float: right; 			/* this link is located at right hand side of this page */
+			}
+			
+			.history {
+				float: right; 			/* this link is located at right hand side of this page */
+			}
+			
+			.campus {
+				float: right; 			/* this link is located at right hand side of this page */
+				margin-left: 10px; 		/* this link has a left margin of 10px */
+			}
+			
+			.ow:hover,.history:hover,.campus:hover {
+				color: lightblue; 		/* this link will turn to lightblue color when the user mouses over it */
+			}
+			
+			.ow:active,.history:active,.campus:active {
+				color: orange; 			/* this link will turn to orange color the moment it is clicked */
+			}
+			
+			.wrapper {									/* CSS elements here are going to format the container */
+				display: grid; 							/* this container is displayed by grid */
+				grid-template-columns: 36% 36%; 		/* this container is divided to two division with 36% space respectively */
+				grid-column-gap:1em; 					/* this container has a 1em vertical gap between every division */
+				grid-row-gap:1em; 						/* this container has a 1em horizontal gap between every division */
+			}
+			
+			.wrapper >div { 							/* CSS elements here will apply for all divisions */
+				background: white; 						/* this container has white color background */
+				padding: 1em; 							/* this container has a padding of 1em */
+				border: 1px solid black; 				/* this container has a 1px black border */
+			}
+			
+			.FCI {
+				width: 500px; 		/* the width of this image is 500px */
+			}
+			
+			.FCM {
+				width: 500px; 		/* the width of this image is 500px */
+			}
+			
+			.FOE {
+				width: 500px; 		/* the width of this image is 500px */
+			}
+			
+			.FOM {
+				width: 500px; 		/* the width of this image is 500px */
+			}
+			
+			.FCIV:hover,.FCMV:hover,.FACV:hover,.FCAV:hover,.FOEV:hover,.FOMV:hover {
+				color: lightblue; 		/* this link will turn to lightblue color when the user mouses over it */
+			}
+			
+			.FCIV:active,.FCMV:active,.FACV:active,.FCAV:active,.FOEV:active,.FOMV:active {
+				color: orange; 			/* this link will turn to orange color the moment it is clicked */
+			}
+			
+		</style>
+		<!-- end of CSS elements coding -->
+		
+	</head>
+	<!-- end of head -->
+	
+	<body>
+	<!-- start of body -->
+	
+		<img class="logo" src="images/mmunewlogo.png">
+		<!-- a MMU logo -->
+		<br>
+		<!-- creates a line break -->
+		
+		<a class="ow" href="https://www.mmu.edu.my/" target="_blank">MMU Official Website</a>
+		<!-- a hyperlink to MMU Official Website by opening in a new tab -->
+		<br>
+		
+		<a class="campus" href="mmucampus.html">Campus</a>
+		<!-- a hyperlink to Campus Webpage by opening instead the original page -->
+		
+		<a class="history" href="mmuhistory.html">History</a>
+		<!-- a hyperlink to History Webpage by opening instead the original page -->
+		
+		<h1>Faculties at MMU Cyberjaya</h1>
+		<!-- title of the webpage -->
+		
+		<div class="wrapper">
+		<!-- start of a container -->
+			<div>
+			<!-- start of a division inside the container -->
+				<img class="FCI" src="images/FCI.png">
+				<!-- FCI building image -->
+				<br>
+				<!-- creates a line break -->
+				<a class="FCIV" href="https://www.youtube.com/watch?v=1Pb5mVFCo7k" target="_blank">Faculty of Computer & Informatics (FCI)</a>
+				<!-- a hyperlink to FCI Youtube video by opening in a new tab -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="FCM" src="images/FCM.png">
+				<!-- FCM building image -->
+				<br>
+				<a class="FCMV" href="https://www.youtube.com/watch?v=9shvlVHAD50" target="_blank">Faculty of Creative Multimedia (FCM)</a>
+				<!-- a hyperlink to FCM Youtube video by opening in a new tab -->
+				<br>
+				<a class="FACV" href="https://www.youtube.com/watch?v=Ucm9t8nn_yU" target="_blank">Faculty of Applied Communication (FAC)</a>
+				<!-- a hyperlink to FAC Youtube video by opening in a new tab -->
+				<br>
+				<a class="FCAV" href="https://www.youtube.com/watch?v=fPEfL5OSgis" target="_blank">Faculty of Cinematic Arts (FCA)</a>
+				<!-- a hyperlink to FCA Youtube video by opening in a new tab -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="FOE" src="images/FOE.png">
+				<!-- FOE building image -->
+				<br>
+				<a class="FOEV" href="https://www.youtube.com/watch?v=XCYEMEbAM4o" target="_blank">Faculty of Engineering (FOE)</a>
+				<!-- a hyperlink to FOE Youtube video by opening in a new tab -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="FOM" src="images/FOM.png">
+				<!-- FOM building image -->
+				<br>
+				<a class="FOMV" href="https://www.youtube.com/watch?v=BoQRL2bTNvI" target="_blank">Faculty of Management (FOM)</a>
+				<!-- a hyperlink to FOM Youtube video by opening in a new tab -->
+			</div>
+			<!-- end of this division -->
+			
+		</div>
+		<!-- end of the container -->
+		
+	</body>
+	<!-- end of body -->
+</html>
+<!-- stop of this html file -->

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<!-- beginning of this html file -->
+	<head>
+	<!-- start of head -->
+	
+		<title>Campus | MMU</title>
+		<!-- title of webpage at left-upper corner -->
+		
+		<!-- all CSS elements are coded inside here -->
+		<style>
+		
+			body {
+				background: url("https://media-exp1.licdn.com/dms/image/C561BAQF35K8FsJBDVQ/company-background_10000/0/1551164347789?e=2159024400&v=beta&t=KcksHllzlFMaxdbzeFRFteNR0xOkojOwbiyY8GdAAvE"); 			
+				/* this is background image */
+				margin-left: 15px;		/* all items in this page have a left margin of 10px */
+				margin-right: 15px;		/* all items in this page have a right margin of 10px */
+			}
+			
+			.logo {
+				width: 200px; 			/* the width of this image is 200px */
+			}
+			
+			.ow {
+				float: right; 			/* this link is located at right hand side of this page */
+			}
+			
+			.history {
+				float: right; 			/* this link is located at right hand side of this page */
+			}
+			
+			.faculty {
+				float: right; 			/* this link is located at right hand side of this page */
+				margin-left: 10px; 		/* this link has a left margin of 10px */
+			}
+			
+			.ow:hover,.history:hover,.faculty:hover {
+				color: lightblue; 		/* this link will turn to lightblue color when the user mouses over it */
+			}
+			
+			.ow:active,.history:active,.faculty:active {
+				color: orange; 			/* this link will turn to orange color the moment it is clicked */
+			}
+			
+			.wrapper {								/* CSS elements here are going to format the container */
+				display: grid; 						/* this container is displayed by grid */
+				grid-template-columns: 70%; 		/* this container is divided to one division with 70% space */
+			}
+			
+			.wrapper >div {							/* CSS elements here will apply for all divisions */
+				background: white; 					/* this container has white color background */
+				padding: 1em; 						/* this container has a padding of 1em */
+				border: 1px solid black; 			/* this container has a 1px black border */
+			}
+			
+			.ov {
+				width: 1000px; 			/* the width of this image is 1000px */
+			}
+			
+			.oov:hover {
+				color: lightblue; 		/* this link will turn to lightblue color when the user mouses over it */
+			}
+			
+			.oov:active {
+				color: orange; 			/* this link will turn to orange color the moment it is clicked */
+			}
+			
+			.wrapper2 {									/* CSS elements here are going to format the container */
+				display: grid; 							/* this container is displayed by grid */
+				grid-template-columns: 26% 26% 26%; 	/* this container is divided to three division with 26% space respectively */
+				grid-column-gap:1em; 					/* this container has a 1em vertical gap between every division */
+				grid-row-gap:1em; 						/* this container has a 1em horizontal gap between every division */
+			}
+			
+			.wrapper2 >div {						/* CSS elements here will apply for all divisions */
+				background: white; 					/* this container has white color background */
+				padding: 1em; 						/* this container has a padding of 1em */
+				border: 1px solid black; 			/* this container has a 1px black border */
+			}
+			
+			.STAD {
+				width: 350px; 			/* the width of this image is 350px */
+				height: 225px; 			/* the height of this image is 225px */
+			}
+			
+			.Library {
+				width: 350px; 			/* the width of this image is 350px */
+				height: 225px; 			/* the height of this image is 225px */
+			}
+			
+			.lhall {
+				width: 350px; 			/* the width of this image is 350px */
+				height: 225px; 			/* the height of this image is 225px */
+			}
+			
+			.foodcourt {
+				width: 350px; 			/* the width of this image is 350px */
+				height: 275px; 			/* the height of this image is 275px */
+			}
+			
+			.Dewan {
+				width: 350px; 			/* the width of this image is 350px */
+				height: 275px; 			/* the height of this image is 275px */
+			}
+			
+			.Chancellory {
+				width: 350px; 			/* the width of this image is 350px */
+			}
+			
+			b {
+				font-family: Arial, Helvetica, sans-serif;		/* this text is shown in the Arial font */
+				font-size: 14px;								/* the font size is setted to 14px */
+			}
+			
+		</style>
+		<!-- end of CSS elements coding -->
+		
+	</head>
+	<!-- end of head -->
+	
+	<body style="margin-left:15px; margin-right:15px">
+	<!-- start of body -->
+	
+		<img class="logo" src="images/mmunewlogo.png">
+		<!-- a MMU logo -->
+		<br>
+		<!-- creates a line break -->
+		
+		<a class="ow" href="https://www.mmu.edu.my/" target="_blank">MMU Official Website</a>
+		<!-- a hyperlink to MMU Official Website by opening in a new tab -->
+		<br>
+		
+		<a class="faculty" href="mmufaculties.html">Faculties</a>
+		<!-- a hyperlink to Faculties Webpage by opening instead the original page -->
+		
+		<a class="history" href="mmuhistory.html">History</a>
+		<!-- a hyperlink to History Webpage by opening instead the original page -->
+		
+		<h1>MMU Cyberjaya Campus</h1>
+		<!-- title of the webpage -->
+		
+		<h2>Aerial Overview</h2>
+		<!-- topic of the webpage -->
+		
+		<div class="wrapper">
+		<!-- start of a container -->	
+			<div>
+			<!-- start of a division inside the container -->
+				<img class="ov" src="images/overview.png">
+				<!-- MMU Cyberjaya campues overview image -->
+				<a class="oov" href="https://360vr.my/mmucyberjaya/" target="_blank">Click here to enjoy 360 Dynamics Virtual Tour</a>
+				<!-- a hyperlink to 360 Dynamics Virtual Tour Webpage by opening in a new tab -->
+			</div>
+			<!-- end of this division -->
+		</div>
+		<!-- end of the container -->
+		
+		<br>
+		<br>
+		<!-- create two lines break -->
+		
+		<h2>Building & Facilities at MMU Cyberjaya</h2>
+		<!-- topic of the webpage -->
+		
+		<div class="wrapper2">
+		<!-- start of another container -->
+			<div>
+			<!-- start of a division inside the container -->
+				<img class="STAD" src="images/STAD.png">
+				<!-- STAD building image -->
+				<br>
+				<!-- creates a line break -->
+				<b>STAD Building</b>
+				<!-- label to image -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="Library" src="images/Library.png">
+				<!-- library building image -->
+				<br>
+				<b>Siti Hasmah Digital Library</b>
+				<!-- label to image -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="lhall" src="images/Lecturehall.png">
+				<!-- lecture hall building image -->
+				<br>
+				<b>Lecture Hall</b>
+				<!-- label to image -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="foodcourt" src="images/foodcourt.png">
+				<!-- foodcourt building image -->
+				<br>
+				<b>Food Court</b>
+				<!-- label to image -->
+			</div>
+			<!-- end of this division -->
+
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="Dewan" src="images/Dewan.png">
+				<!-- Dewan Canselor Tun Siti Hasmah building image -->
+				<br>
+				<b>Dewan Canselor Tun Siti Hasmah</b>
+				<!-- label to image -->
+			</div>
+			<!-- end of this division -->
+			
+			<div>
+			<!-- start of another division inside the container -->
+				<img class="Chancellory" src="images/Chancellory.png">
+				<!-- Chancellory building image -->
+				<br>
+				<b>Chancellory Building</b>
+				<!-- label to image -->
+			</div>
+			<!-- end of this division -->
+		</div>
+		<!-- end of the container -->
+		
+	</body>
+	<!-- end of body -->
+</html>
+<!-- stop of this html file -->
